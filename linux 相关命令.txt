@@ -1,0 +1,14 @@
+linux相关命令：
+
+杀掉进程
+ps -ef|grep java
+
+kill -9 进程id //杀掉进程
+
+
+cd /home/xzjcyjwt/bin
+
+./startup.sh //启动
+
+
+tail -f ../logs/catalina.out//监控实施日志
