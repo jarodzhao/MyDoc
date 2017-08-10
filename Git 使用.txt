@@ -1,0 +1,13 @@
+更新到 github 最新版
+git remote -v
+git fetch origin master
+git log -p master..origin/master  	//对比远程仓库和本地仓库的区别
+git merge origin/master			//合并
+
+
+添加远程仓库
+git remote add origin git@github.com:jarodzhao/Note.git
+
+
+命令:git status 显示中文
+git config --global coe.quotepath false
