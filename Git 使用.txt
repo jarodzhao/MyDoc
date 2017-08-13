@@ -11,3 +11,14 @@ git remote add origin git@github.com:jarodzhao/Note.git
 
 命令:git status 显示中文
 git config --global coe.quotepath false
+
+
+覆盖上一次的 push (不会产生新的记录)
+git push -f origin master
+
+
+vim 编辑器
+命令模式：
+:wq 保存并退出
+:w 保存
+编辑模式：按下 ESC 退回命令模式
