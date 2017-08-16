@@ -18,6 +18,9 @@ git push -f origin master
 
 
 vim 编辑器
+按 a, i 或 o 进入编辑模式
+按 ESC 进入操作模式
+在操作模式下，:wq 为写入退出，:q! 不保存退出  
 命令模式：
 :wq 保存并退出
 :w 保存
