@@ -1,3 +1,8 @@
+基础使用
+git add .			//添加所有更改的工作区
+git commit -m "..."		//提交更新,-m 添加注释
+git push origin master		//上传到 github
+
 更新到 github 最新版
 git remote -v
 git fetch origin master
