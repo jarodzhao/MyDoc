@@ -1,6 +1,6 @@
 import printList
 
-''' µ¥ĞĞ×¢ÊÍÔõÃ´Ğ´'''
+''' å•è¡Œæ³¨é‡Šæ€ä¹ˆå†™'''
 
 nikeName = ['zhao','haitao','jarod',['a',['afaf','dfdf','efef'],'b','c','d']]
 
