@@ -1,8 +1,9 @@
+# coding=utf-8
+
 import printList
 
-
 try:
-    txtFile = open('aabb.txt')
+    txtFile = open('ab.txt')
 
     for line in txtFile:
         try:
