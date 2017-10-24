@@ -1,29 +1,16 @@
 # coding=utf-8
+#import os
 
-import printList
+a = 0
+file = open('usernames.txt')
 
-try:
-    txtFile = open('ab.txt')
+for line in file:
+	l = line.split(',');
+	a=0
+	for x in l:
+		a += 1
+		print(str(a) + ": " + x)
 
-    for line in txtFile:
-        try:
-            if not line.find(" ") == -1:
-                line = line.split(" ")
-                printList.print_movie(line)
-            else:
-                print(line)
-        except ValueError:
-            print('发布错误,不存在" "')
+file.close()
 
-    #print('jarod zhao',file=txtFile)
 
-    txtFile.close()
-
-except IOError:
-    print('文件读写错误!!!')
-
-''' 单行注释怎么写 '''
-
-nikeName = ['zhao','haitao','jarod',['a',['afaf','dfdf','efef'],'b','c','d']]
-
-#printList.print_movie(nikeName,0)
