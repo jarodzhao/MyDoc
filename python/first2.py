@@ -3,7 +3,7 @@
 import printList
 
 try:
-    txtFile = open('ab.txt')
+    txtFile = open('aabb.txt')
 
     for line in txtFile:
         try:

@@ -1,5 +1,5 @@
 # coding=utf-8
-#import os
+# import os
 
 a = 0
 file = open('usernames.txt')
