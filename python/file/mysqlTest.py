@@ -10,14 +10,14 @@ db = pymysql.connect(host="127.0.0.1",user="root",password="root",database="abc"
 
 cursor = db.cursor()
 
-cursor.execute("select * from t_book")
+cursor.execute("select * from t_book order by id desc")
 
 data = cursor.fetchall()
 
 for row in data:
-    print(row)
-    
-
+    for it in row:
+        print(it)
+        
 
 db.close()
 
