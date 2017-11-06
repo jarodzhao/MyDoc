@@ -14,7 +14,7 @@ cursor.execute("select apply_dept_name,apply_user_name,sign_time,type,sign_flag"
 
 data = cursor.fetchall()
 
-for row in data:
+for row in data:    
     print(type(row))
     for it in row:
 	  #缩进不一定要4个空格，但不能用 Tab 缩进
