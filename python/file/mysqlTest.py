@@ -5,12 +5,12 @@ Usage:
 import pymysql
 
 # 这样可以显示数据库中的中文字符了
-db = pymysql.connect(host="127.0.0.1",user="root",password="root",database="xzjcy1023",charset='utf8')
+db = pymysql.connect(host="127.0.0.1",user="root",password="root",database="xzjcy1207",charset='utf8')
 
 cursor = db.cursor()
 
 cursor.execute("select apply_dept_name,apply_user_name,sign_time,type,sign_flag"
-               " from t_sign_record order by id desc limit 1")
+               " from t_sign_record_late WHERE apply_user_name = '苏晓' order by attendance_date desc limit 10")
 
 data = cursor.fetchall()
 
