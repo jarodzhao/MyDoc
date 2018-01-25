@@ -1,9 +1,0 @@
-Notepad++用的不多，轻量级的编辑器用EditPlus多些。不敢说EditPlus更好，但部分回复对EditPlus存在的说法做一些纠正。
-1.EditPlus 集成了FTP功能，支持sftp
-2.EditPlus 支持代码折叠（不过其功能有些弱，是依据代码缩进程度进行判断处理）
-3.EditPlus 可以通过添加第三方的小工具到 User Tool Group 中就可以扩展其功能。比如添加一个Textdiff 小工具就可以实现文档比较，通过Configure User Tool 进行配置，可以将EditPlus处理的文件参数传递给这些工具。这个类似于插件功能吧。3.EditPlus 可以通过添加第三方的小工具到 User Tool Group 中就可以扩展其功能。比如添加一个Textdiff 小工具就可以实现文档比较，通过Configure User Tool 进行配置，可以将EditPlus处理的文件参数传递给这些工具。这个类似于插件功能吧。
-4.EditPlus 集成了Git 功能
-5. EditPlus 已经信成了前端的Zen Coding 及其最新的版本 Emmet
-另外EditPlus没有Linux版本，不过可以安装在Windows环境模拟器 Wine 下解决。
-Sublime Text 我一直没有，重要的原因是它对GBK中文支持的不好，可以安装插件解决，它又会偷偷生成一堆状态维护的信息文件污染版本维护目录。而工作中处理GBK编码的文件较多。
-同意 benbenbear 的看法，这几个工具对部分用户而言差异不是很大，用自己熟悉的就好。
